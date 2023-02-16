@@ -6,5 +6,5 @@ How it works: You pass the x coordinate, y coordinate, width, and height for two
 
 To install, simply download and extract into your library folder for Arduino.  You can then find collision_check under examples.
 
-https://github.com/MandoRick/collision_check/blob/main/assets/images/example.png
+https://github.com/MandoRick/Arduino-Collision-Detection-Library/blob/main/assets/images/example.png
  
