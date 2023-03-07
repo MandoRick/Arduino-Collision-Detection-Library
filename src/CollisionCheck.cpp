@@ -10,6 +10,7 @@ bool CollisionCheck::collisionCheckSquareToSquare(int obj1X, int obj1Y, int obj1
   }
 }
 
+//collisionDetection(obj1X, obj1Y, obj1R, obj2X, obj2Y, obj2R);
 bool CollisionCheck::collisionCheckRountToRound(int obj1X, int obj1Y, int obj1R, int obj2X, int obj2Y, int obj2R) {
   if (((obj2X - obj1X) * (obj2X - obj1X)) + ((obj2Y - obj1Y) * (obj2Y - obj1Y)) < ((obj1R + obj2R) * (obj1R + obj2R))) {
     return true;
