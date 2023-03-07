@@ -58,7 +58,7 @@ void loop() {
   Serial.println("object1X: " + (String)object1X);
   Serial.println("object2X: " + (String)object2X);
   //collisionDetection(obj1X, obj1Y, obj1R, obj2X, obj2Y, obj2R);
-  collis1Result = col1Check.collisionCheckRountToRound(object1X, object1Y, object1R, object2X, object2Y, object2R);
+  collis1Result = col1Check.collisionCheckRoundToRound(object1X, object1Y, object1R, object2X, object2Y, object2R);
   if (collis1Result) {
     Serial.println("Collision 1 true");
   } else {
