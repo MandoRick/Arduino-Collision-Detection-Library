@@ -1,1 +1,3 @@
-CollisionCheck	KEYWORD1
+CollisionCheck			            KEYWORD1
+collisionCheckSquareToSquare	  KEYWORD2
+collisionCheckRountToRound	    KEYWORD3
